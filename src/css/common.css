@@ -1,0 +1,75 @@
+body,div{
+	margin: 0px;
+	padding: 0px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.content{
+	position: absolute;
+	left: 0rem;
+	right: 0rem;
+	bottom: 0rem;
+	top: 3.8125rem;
+}
+
+.vertical-center{	
+	display: flex;
+	align-items: center;
+}
+
+.horizontal-center{	
+	display: flex;
+	justify-content:center;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.float-left{
+	float: left !important;
+}
+
+.float-right{
+	float: right !important;
+}
+
+.fill-screen{
+	width:100% !important;
+	height: 100% !important;
+	position: absolute !important;
+}
+
+/*背景颜色*/
+.background-black{
+	background: #000000 !important;
+}
+.background-white{
+	background: #FFFFF !important;
+}
+
+.fill-width{
+	width: 100% !important;
+}
+.fill-height{
+	height: 100% !important;
+}
+
+.scroll{
+	overflow:auto !important;
+}
+
+.circle{
+	border-radius: 50%;
+}
